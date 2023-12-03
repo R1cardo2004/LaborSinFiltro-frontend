@@ -1,0 +1,50 @@
+.continuarpositionlogin{
+    width: 293px; 
+    height: 47px; 
+    padding-Bottom: 5; 
+    border-Radius: 20px; 
+    justify-Content: center;
+    align-Items: center; 
+    display: inline-flex;
+    margin-top: 10px;
+}
+.continuar{
+    width: 293px; 
+    height: 42px; 
+    position: relative;
+}
+  
+.continuarbck{
+    width: 293px; 
+    height: 42px; 
+    left: 0; 
+    top: 0; 
+    position: absolute; 
+    background: white; 
+    border-Radius: 20px;
+    transition: background-color 0.2s ease-in-out;
+    align-items: center;
+}
+  
+.continuarbttn{
+    right: 12px;
+    width: 293px; 
+    height: 38px; 
+    position: relative; 
+    color: black; 
+    font-Size: 20px; 
+    font-Family: Reem Kufi Fun; 
+    font-Weight: 400; 
+    word-Wrap: break-word;
+    background: none;
+    border: none;
+}
+
+.continuarbck:hover{
+    background: #D1F1FF;
+}
+
+.continuarbck:active{
+    background: #8ADAFC;
+}
+

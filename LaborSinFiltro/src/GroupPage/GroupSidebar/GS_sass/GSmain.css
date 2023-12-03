@@ -1,0 +1,122 @@
+.gspos {
+  width: 261px;
+  height: 100%;
+  position: fixed;
+  right: 14px;
+  top: 8vh;
+}
+
+.gspos:hover .gsbck {
+  background: #F9F9F9;
+}
+
+@media (max-width: 768px) {
+  .gspos {
+    top: 50px;
+    right: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .gspos {
+    top: 30px;
+    right: 5px;
+    height: 80%;
+  }
+}
+.gsbck {
+  width: 261px;
+  height: 356px;
+  left: 0px;
+  top: 40px;
+  position: absolute;
+  background: white;
+  border-Radius: 20px;
+}
+
+.gsPicture {
+  width: 261px;
+  height: 125px;
+  left: 0px;
+  top: 1px;
+  position: absolute;
+  background: #D1F1FF;
+}
+
+.grupoDes {
+  width: 235px;
+  height: 93px;
+  left: 12px;
+  top: 181px;
+  position: absolute;
+  color: #585858;
+  font-Size: 14px;
+  font-Family: Roboto Flex;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}
+
+.grupoName {
+  width: 200px;
+  height: 30px;
+  left: 13px;
+  top: 139px;
+  position: absolute;
+  color: black;
+  font-Size: 20px;
+  font-Family: Reem Kufi Fun;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}
+
+.publiamountpos {
+  height: 35px;
+  left: 131px;
+  top: 288px;
+  position: absolute;
+}
+
+.publiamountTxt {
+  width: 100px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  color: black;
+  font-Size: 14px;
+  font-Family: Roboto Flex;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}
+
+.memberamntpos {
+  height: 35px;
+  left: 21px;
+  top: 288px;
+  position: absolute;
+}
+
+.membertxt {
+  width: 68px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  color: black;
+  font-Size: 14px;
+  font-Family: Roboto Flex;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}
+
+.publiNmembernumber {
+  width: 59px;
+  height: 15px;
+  left: 0px;
+  top: 20px;
+  position: absolute;
+  color: black;
+  font-Size: 14px;
+  font-Family: Roboto Flex;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}/*# sourceMappingURL=GSmain.css.map */

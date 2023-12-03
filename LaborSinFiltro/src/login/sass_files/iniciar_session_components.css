@@ -1,0 +1,28 @@
+.headerForm {
+  width: 156px;
+  height: 39px;
+  position: relative;
+}
+
+.Fbck {
+  width: 156px;
+  height: 39px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #D1F1FF;
+  border-Radius: 20px;
+}
+
+.Ftxt {
+  width: 138px;
+  height: 35px;
+  left: 12px;
+  top: 4px;
+  position: absolute;
+  color: black;
+  font-Size: 20px;
+  font-Family: Reem Kufi Fun;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}/*# sourceMappingURL=iniciar_session_components.css.map */

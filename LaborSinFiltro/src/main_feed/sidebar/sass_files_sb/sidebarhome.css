@@ -1,0 +1,51 @@
+.homeposition {
+  width: 103.77px;
+  height: 25.73px;
+  left: 15px;
+  top: 132px;
+  position: absolute;
+  border-Radius: 20px;
+}
+
+.homebck {
+  width: 104px;
+  height: 25px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: none;
+  border-Radius: 20px;
+}
+
+.homeiconposition {
+  width: 30.23px;
+  height: 25.73px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+.homeicon {
+  width: 28.19px;
+  height: 23.72px;
+  left: 2.87px;
+  top: 1.33px;
+  position: absolute;
+  border-Radius: 1px;
+}
+
+.hometxt {
+  width: 68.51px;
+  height: 19.72px;
+  left: 35.26px;
+  top: 5.15px;
+  position: absolute;
+  color: black;
+  font-Size: 15px;
+  font-Family: Roboto;
+  font-Weight: 300;
+  word-Wrap: break-word;
+}
+.hometxt:hover {
+  color: #83D0F1;
+}/*# sourceMappingURL=sidebarhome.css.map */

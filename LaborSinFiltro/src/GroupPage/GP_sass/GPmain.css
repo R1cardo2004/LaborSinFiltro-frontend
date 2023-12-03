@@ -1,0 +1,36 @@
+.backgroundGP {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: var(--background-padding);
+  background: white;
+  justify-Content: center;
+  align-Items: center;
+  display: flex;
+  position: fixed;
+}
+
+@media (max-width: 768px) {
+  .backgroundGP {
+    padding: 50px 10px 100px 10px;
+  }
+}
+@media (max-width: 480px) {
+  .backgroundGP {
+    padding: 30px 10px 60px 10px;
+  }
+}
+.divisorlinegp {
+  border-Left: 1px solid black;
+  height: 83%;
+  transform: translateX(-60px);
+}
+
+.divisorline2gp {
+  border-Left: 1px solid black;
+  height: 83%;
+  transform: translateX(-35px);
+}/*# sourceMappingURL=GPmain.css.map */

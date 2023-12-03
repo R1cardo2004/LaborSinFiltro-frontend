@@ -1,0 +1,94 @@
+.grpisition {
+  width: 253px;
+  height: 100%;
+  position: fixed;
+  right: 15px;
+  top: 8vh;
+}
+.grpisition:hover .grbckcolor {
+  background: #F9F9F9;
+}
+
+.grbackposition {
+  width: 253px;
+  height: 530px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  flex-Direction: column;
+  justify-Content: center;
+  align-Items: center;
+  display: inline-flex;
+}
+
+.grbckcolor {
+  width: 253px;
+  height: 530px;
+  background: white;
+  border-Radius: 20px;
+}
+
+.grtittle {
+  width: 216px;
+  height: 33px;
+  left: 22px;
+  top: 6px;
+  position: absolute;
+  text-Align: center;
+  color: black;
+  font-Size: 17px;
+  font-Family: Reem Kufi Fun;
+  font-Weight: 700;
+  word-Wrap: break-word;
+}
+
+.grgruponame {
+  width: 171px;
+  height: 26px;
+  left: 41px;
+  top: 3px;
+  position: absolute;
+  color: black;
+  font-Size: 15px;
+  font-Family: "Roboto Flex";
+  font-Weight: 400;
+  word-Wrap: break-word;
+}
+.grgruponame:hover {
+  color: #83D0F1;
+}
+
+.griconposition {
+  width: 32px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  flex-Direction: column;
+  justify-Content: flex-start;
+  align-Items: flex-start;
+  display: inline-flex;
+}
+
+.gricon {
+  width: 30px;
+  height: 30px;
+}
+
+.grgroupsposition {
+  width: 212px;
+  height: 224px;
+  left: 26px;
+  top: 62px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.grgroup {
+  width: 212px;
+  height: 32px;
+  left: 0px;
+  position: relative;
+  margin-top: 10px;
+}/*# sourceMappingURL=GRMain.css.map */

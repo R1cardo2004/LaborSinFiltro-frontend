@@ -1,0 +1,181 @@
+
+.ubposition{
+    width: 889px; 
+    height: 157px;
+    top: 1vh;
+    left: 18vh; 
+    position: relative
+}
+
+.ubBack{
+    width: 889px; 
+    height: 157px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-Radius: 20px
+}
+
+.ubDescripcion{
+    width: 708px; 
+    height: 56px; 
+    left: 162px; 
+    top: 89px; 
+    position: absolute;
+}
+
+.descripcionBox{
+    width: 708px; 
+    height: 56px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-Radius: 20px;
+    border: 1px black solid
+}
+
+.descripcionTxt{
+    width: 663.14px; 
+    height: 34.87px; 
+    left: 20.61px; 
+    top: 10.57px; 
+    position: absolute; 
+    color: black; 
+    font-Size: 14px; 
+    font-Family: Roboto Flex; 
+    font-Weight: 400; 
+    word-Wrap: break-word;
+}
+
+.UPB{
+    width: 120px; 
+    height: 120px; 
+    left: 17px; 
+    top: 17px; 
+    position: absolute;
+}
+
+.usericonbckUB{
+    width: 120px; 
+    height: 120px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D1F1FF; 
+    border-Radius: 100px
+}
+
+.usericonpositionUB{
+    width: 88.23px; 
+    height: 85.51px; 
+    left: 16.22px; 
+    top: 18.59px; 
+    position: absolute;
+}
+
+.UserIconUB{
+    width: 88.82px; 
+    height: 85.76px;  
+    position: absolute;
+}
+
+.editProfilesPos{
+    width: 108px; 
+    height: 26px; 
+    left: 766px; 
+    top: 14px; 
+    position: absolute;
+}
+
+.editbck{
+    width: 108px; 
+    height: 26px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-Radius: 20px; 
+    border: 1px black solid;
+}
+
+.editTxt{
+    width: 98.56px; 
+    height: 19.15px; 
+    left: 5px; 
+    top: 5px; 
+    position: absolute; 
+    text-Align: center; 
+    color: black; 
+    font-Size: 12px; 
+    font-Family: Reem Kufi Fun; 
+    font-Weight: 400; 
+    word-Wrap: break-word;
+}
+
+.UserName{
+    width: 152px; 
+    height: 30px; 
+    left: 162px; 
+    top: 24px; 
+    position: absolute; 
+    color: black; 
+    font-Size: 20px; 
+    font-Family: Reem Kufi Fun; 
+    font-Weight: 400; 
+    word-Wrap: break-word;
+}
+
+.UserWork{
+    width: 300px; 
+    height: 30px; 
+    left: 162px; 
+    top: 53px; 
+    position: absolute; 
+    color: black; 
+    font-Size: 16px; 
+    font-Family: Reem Kufi Fun; 
+    font-Weight: 400; 
+    word-Wrap: break-word;
+}
+
+.togglehiddenPos{
+    width: 25px; 
+    height: 24px; 
+    left: 728px; 
+    top: 15px; 
+    position: absolute;
+}
+
+.hiddenIconpos{
+    width: 25px; 
+    height: 24px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.hiddenIcon{
+    width: 25px; 
+    height: 24px; 
+    left: 8.33px; 
+    top: 2px;
+    position: absolute; 
+    border-Radius: 9999
+}
+
+@media (max-width: 810px) {
+    .ubposition{
+        width: 100%;
+    }
+    .ubBack{
+        width: 100%;
+    }
+    .ubDescripcion{
+        width: 100%;
+    }
+    .descripcionBox{
+        width: 40%;
+    }
+}

@@ -1,0 +1,113 @@
+.lnpPosition {
+  width: 1275px;
+  height: 60px;
+  position: relative;
+}
+
+.lnpback {
+  width: 1275px;
+  height: 53.49px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.likesPos {
+  width: 125px;
+  height: 34.61px;
+  left: 156px;
+  top: 9.44px;
+  position: absolute;
+  background: none;
+  border: none;
+}
+
+.likesPos:hover .likebttn {
+  background: #D1F1FF;
+}
+
+.likebttn {
+  width: 125px;
+  height: 34.61px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: none;
+  border-Radius: 20px;
+}
+
+.likebttncolored {
+  width: 125px;
+  height: 34.61px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: none;
+  border-Radius: 20px;
+  background: #D1F1FF;
+}
+
+.likesTxt {
+  width: 98.4px;
+  height: 22.71px;
+  left: 13.3px;
+  top: 4.33px;
+  position: absolute;
+  text-Align: center;
+  color: black;
+  font-Size: 16px;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}
+
+.postpos {
+  width: 93px;
+  height: 34.61px;
+  left: 49px;
+  top: 10.49px;
+  position: absolute;
+  background: none;
+  border: none;
+}
+
+.postpos:hover .postbttn {
+  background: #D1F1FF;
+}
+
+.postbttn {
+  width: 93px;
+  height: 34.61px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: none;
+  border-Radius: 20px;
+}
+
+.postbttncolored {
+  width: 93px;
+  height: 34.61px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: none;
+  border-Radius: 20px;
+  background: #D1F1FF;
+}
+
+.postTxt {
+  width: 69.91px;
+  height: 20.98px;
+  left: 11.87px;
+  top: 5.24px;
+  position: absolute;
+  text-Align: center;
+  color: black;
+  font-Size: 16px;
+  font-Family: Montserrat;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}/*# sourceMappingURL=UF_likes&posts.css.map */

@@ -1,0 +1,80 @@
+.feedboxGP {
+  width: 1275px;
+  height: 85%;
+  top: 210px;
+  transform: translateX(-50px);
+}
+
+.feedboxGP:hover .GBbck {
+  background: #F9F9F9;
+}
+
+.feedboxGP:hover .fabcksGP {
+  background: #F9F9F9;
+}
+
+.fapositionGP {
+  left: 15px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.GBbck {
+  width: 1250px;
+  height: 180px;
+  left: 0px;
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+}
+
+.fabcksGP {
+  width: 1250px;
+  height: 945px;
+  left: 0px;
+  top: 210px;
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+}
+.fabcksGP:hover {
+  background: #F9F9F9;
+}
+
+.scrollboxGP {
+  width: 1275px;
+  top: 210px;
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  position: absolute;
+}
+
+@media (max-width: 810px) {
+  .feedboxGP {
+    width: 100%;
+  }
+  .GBbck {
+    width: 100%;
+    transform: translateX(30px);
+  }
+  .fabcksGP {
+    width: 100%;
+    transform: translateX(30px);
+  }
+  .scrollboxGP {
+    width: 100%;
+    transform: translateX(30px);
+  }
+}
+.menuamborguesaGP {
+  width: 40px;
+  height: 40px;
+  background: #F9F9F9;
+  position: absolute;
+  left: 380px;
+  transform: translateY(650px);
+  z-index: 6;
+  border-radius: 100px;
+}/*# sourceMappingURL=GPMain.css.map */

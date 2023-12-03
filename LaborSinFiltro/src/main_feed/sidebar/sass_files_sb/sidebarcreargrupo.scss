@@ -1,0 +1,49 @@
+.CrearGrupoposition{
+    width: 131px; 
+    height: 23.67px; 
+    left: 15px; 
+    top: 270px; 
+    position: absolute;
+}
+
+.CrearGrupobck{
+    width: 131px; 
+    height: 24px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: none; 
+    border-Radius: 20px;
+}
+
+.CrearGrupoiconposition{
+    width: 30px; 
+    height: 23.67px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.CrearGrupoicon{
+    width: 30.19px; 
+    height: 25.72px; 
+    left: 1.52px; 
+    top: 2.07px; 
+    position: absolute;
+}
+
+.CrearGrupotxt{
+    width: 96px; 
+    left: 35px; 
+    top: 4.30px; 
+    position: absolute; 
+    color: black; 
+    font-Size: 15px; 
+    font-Family: Roboto; 
+    font-Weight: 300; 
+    word-Wrap: break-word;
+
+    &:hover{
+        color: #83D0F1;
+    }
+}

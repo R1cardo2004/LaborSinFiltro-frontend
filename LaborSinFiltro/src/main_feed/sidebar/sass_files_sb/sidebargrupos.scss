@@ -1,0 +1,52 @@
+
+.grupoposition{
+    width: 91.68px; 
+    height: 25.73px; 
+    left: 15px; 
+    top: 203px; 
+    position: absolute;
+}
+
+.grupobck{
+    width: 92px; 
+    height: 26px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: none; 
+    border-Radius: 20px;
+}
+
+.grupotxt{
+    width: 56.42px; 
+    height: 18.01px; 
+    left: 35.26px; 
+    top: 4.29px; 
+    position: absolute; 
+    color: black; 
+    font-Size: 15px; 
+    font-Family: Roboto; 
+    font-Weight: 300; 
+    word-Wrap: break-word;
+
+    &:hover{
+        color: #83D0F1;
+    }
+}
+
+.grupoiconposition{
+    width: 30.23px; 
+    height: 25.73px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+    
+}
+
+.grupoicon{
+    width: 28.19px; 
+    height: 23.72px;
+    left: 2.87px; 
+    top: 4.33px; 
+    position: absolute;
+}

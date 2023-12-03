@@ -1,0 +1,254 @@
+@import './writepostsidebar.css';
+@import './writeposrtopbar.css';
+@import '../sass_files_feedbck/FAmain.css';
+.crearpostposition {
+  margin-top: 15px;
+  left: 225px;
+  width: 797px;
+  height: 222.51px;
+  position: relative;
+  top: 50px;
+}
+.crearpostposition:hover .tbback {
+  background-color: #EDFAFF;
+}
+.crearpostposition:hover .sidebarbck {
+  background-color: #EDFAFF;
+}
+.crearpostposition:hover .publicarposition {
+  background: #EDFAFF;
+}
+.crearpostposition:hover .publicartxt {
+  color: black;
+}
+
+.crearpostposition.expanded {
+  height: 422.51px;
+}
+
+.sidebarbck.expanded {
+  height: 422.51px;
+  z-index: 2;
+}
+
+.creatpostbck {
+  width: 796.79px;
+  height: 222.41px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: white;
+  border-Radius: 20px;
+}
+
+.publicarposition {
+  width: 90.4px;
+  height: 35.76px;
+  left: 690px;
+  top: 180px;
+  position: absolute;
+  background: none;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border-radius: 20px;
+}
+
+.publicartxt {
+  width: 100.4px;
+  height: 35.76px;
+  padding-bottom: 20px;
+  position: relative;
+  color: white;
+  font-size: 14px;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.inputtxt {
+  width: 715.74px;
+  height: 138.9px;
+  left: 66px;
+  top: 53px;
+  position: absolute;
+  color: black;
+  font-Size: 15px;
+  font-Family: Roboto Flex;
+  font-Weight: 300;
+  word-Wrap: break-word;
+  background: none;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.tagsposition {
+  width: 365px;
+  height: 31px;
+  left: 49px;
+  top: 178px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.tagsbck {
+  width: 364.51px;
+  height: 23.46px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: none;
+}
+
+.tag {
+  width: 115px;
+  height: 24px;
+  top: 7px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.tagtxt {
+  width: 86px;
+  height: 18px;
+  left: 29px;
+  top: 2px;
+  position: absolute;
+  color: black;
+  font-Size: 17px;
+  font-Family: Ropa Sans;
+  font-Weight: 400;
+  word-Wrap: break-word;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.taiconposition {
+  width: 22px;
+  height: 24px;
+  padding-Left: 2.06px;
+  padding-Right: 2.06px;
+  padding-Top: 2.25px;
+  padding-Bottom: 2.25px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  flex-Direction: column;
+  justify-Content: center;
+  align-Items: center;
+  display: inline-flex;
+}
+
+.tagicon {
+  width: 17.88px;
+  height: 19.5px;
+}
+
+.scrollboxcomments {
+  position: relative;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  width: 796.79px;
+  height: 200px;
+  background: white;
+  top: 190px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .crearpostposition {
+    left: 0;
+    width: 98%;
+  }
+  .creatpostbck {
+    width: 98%;
+  }
+  .crearpostposition.expanded {
+    width: 98%;
+  }
+  .inputtxt {
+    width: 98%;
+  }
+  .publicarposition {
+    left: 75%;
+    top: 160px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+  }
+  .tag {
+    margin-right: 5px;
+    width: 70px;
+  }
+  .topbarposition {
+    width: 98%;
+  }
+  .tbback {
+    width: 98%;
+  }
+  .scrollboxcomments {
+    width: 98%;
+    overflow-x: none;
+  }
+}
+.Postsetting {
+  position: absolute;
+  left: 750px;
+  top: 190px;
+  width: 30px;
+  height: 30px;
+}
+
+.settingspos {
+  position: absolute;
+  left: 470px;
+  top: 50px;
+  width: 300px;
+  height: 140px;
+  background: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.reporttittle {
+  color: black;
+  left: 20px;
+  top: 10px;
+  position: relative;
+}
+
+.reportecontent {
+  background: #F9F9F9;
+  border: none;
+  outline: none;
+  color: black;
+  height: 60px;
+  width: 250px;
+  border-radius: 20;
+  left: 20px;
+  top: 20px;
+  position: relative;
+  resize: none;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.reportbttn {
+  background: #EDFAFF;
+  border: none;
+  outline: none;
+  color: black;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  top: 18px;
+  left: 90px;
+  font-size: 14px;
+  position: relative;
+}/*# sourceMappingURL=writepostmain.css.map */

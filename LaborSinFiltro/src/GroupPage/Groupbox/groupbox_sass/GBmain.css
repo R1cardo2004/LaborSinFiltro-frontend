@@ -1,0 +1,134 @@
+.gbpos {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+
+.gbback {
+  width: 1250px;
+  height: 96px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: none;
+  border-Radius: 20px;
+}
+
+.gruopIconGB {
+  width: 103.5px;
+  height: 100.27px;
+  left: 18.12px;
+  position: absolute;
+}
+
+.gruopIconbckGB {
+  width: 103.5px;
+  height: 100.27px;
+  position: absolute;
+  background: #D1F1FF;
+  border-Radius: 100px;
+}
+
+.GIpos {
+  width: 84.04px;
+  height: 81.66px;
+  left: 9.8px;
+  top: 9.95px;
+  position: absolute;
+}
+
+.GIcon {
+  width: 84.04px;
+  height: 81.66px;
+  position: absolute;
+}
+
+.groupName {
+  width: 200.03px;
+  height: 29.69px;
+  left: 134.71px;
+  top: 37.51px;
+  position: absolute;
+  color: black;
+  font-Size: 20px;
+  font-Family: Reem Kufi Fun;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}
+
+.empresaName {
+  width: 200.03px;
+  height: 29.69px;
+  left: 134.71px;
+  top: 67.51px;
+  position: absolute;
+  color: black;
+  font-Size: 20px;
+  font-Family: Reem Kufi Fun;
+  font-Weight: bold;
+  word-Wrap: break-word;
+}
+
+.groupMembers {
+  width: 353.03px;
+  height: 29.69px;
+  left: 134.71px;
+  top: 67.51px;
+  position: absolute;
+  color: black;
+  font-Size: 20px;
+  font-Family: Reem Kufi Fun;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}
+
+.likeGroupPos {
+  width: 25.94px;
+  height: 28.31px;
+  left: 1150px;
+  top: 9px;
+  position: absolute;
+}
+
+.joinGroupPos {
+  width: 25.94px;
+  height: 28.31px;
+  left: 1150px;
+  top: 60px;
+  position: absolute;
+}
+
+.favIcon {
+  width: 33.78px;
+  height: 33.59px;
+  left: 1.08px;
+  top: 1.18px;
+  position: absolute;
+}
+
+.joinIcon {
+  width: 33.78px;
+  height: 33.59px;
+  left: 1.08px;
+  top: 1.18px;
+  position: absolute;
+}
+
+@media (max-width: 810px) {
+  .empresaName {
+    font-size: 14px;
+  }
+  .groupName {
+    font-size: 18px;
+  }
+  .joinGroupPos {
+    left: 320px;
+    top: 60px;
+  }
+  .likeGroupPos {
+    left: 320px;
+    top: 9px;
+  }
+}/*# sourceMappingURL=GBmain.css.map */

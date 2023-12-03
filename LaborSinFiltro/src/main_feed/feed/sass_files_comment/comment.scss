@@ -1,0 +1,84 @@
+
+
+.commentpos{
+    width: 675px; 
+    height: 65px; 
+    position: relative;
+    left: 65px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.commentbck{
+    width: 675px; 
+    height: 65px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #F9F9F9; 
+    border-Radius: 20px
+}
+
+.useIconPoscomment{
+    width: 36.92px; 
+    height: 40.89px; 
+    padding-Top: 6.81px; 
+    padding-Left: 6.15px; 
+    padding-Right: 6.15px; 
+    left: 7px; 
+    top: 12px; 
+    position: absolute; 
+    flex-Direction: column; 
+    justify-Content: flex-end; 
+    align-Items: center; 
+    gap: 6.81px; 
+    display: inline-flex
+}
+
+.usericoncomment{
+    width: 36.92px;
+    height: 40.89px; 
+    background: rgba(218.98, 221.73, 229.50, 0); 
+    border-Radius: 9999;
+    bottom: 10px;
+}
+
+.usernamecomment{
+    width: 167px; 
+    height: 21px; 
+    left: 55px; 
+    top: 5px; 
+    position: absolute; 
+    color: black; 
+    font-Size: 15px; 
+    font-Family: 'Roboto Flex'; 
+    font-Weight: 300; 
+    word-Wrap: break-word;
+}
+
+.usercomment{
+    width: 471px; 
+    height: 22px; 
+    left: 55px; 
+    top: 31px; 
+    position: absolute; 
+    color: black; 
+    font-Size: 15px;
+    font-Family: 'Roboto Flex'; 
+    font-Weight: 300; 
+    word-Wrap: break-word;
+    background: none;
+    outline: none;
+    border: none;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+@media (max-width: 768px) {
+    .commentpos{
+        width: 98%;
+    }
+    .commentbck{
+        width: 98%;
+    }
+}

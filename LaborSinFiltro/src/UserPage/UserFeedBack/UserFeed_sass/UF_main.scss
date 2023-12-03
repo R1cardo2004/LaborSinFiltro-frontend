@@ -1,0 +1,105 @@
+@import '../../UserBox/UB_sass/UB_main.scss';
+@import '../../UserFeedBack/UserFeed_sass/UF_likes&posts.scss';
+
+.feedboxUser {
+    width: 1275px;
+    height: 85%;
+    top: 210px;
+    transform: translateX(-50px);
+}
+.feedboxUser:hover .UBbck {
+background: #F9F9F9;
+}
+
+.feedboxUser:hover .fabcks {
+    background: #F9F9F9;
+}
+
+.feedboxUser:hover .ubBack {
+    background: #F9F9F9;
+}
+
+.feedboxUser:hover .lnpback {
+    background: #F9F9F9;
+}
+
+.faposition {
+    left: 15px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+  
+.fabcks {
+    width: 1250px;
+    height: 945px;
+    left: 0px;
+    top: 210px;
+    position: absolute;
+    background: white;
+    border-radius: 20px;
+
+    &:hover{
+        background: #F9F9F9;
+    }
+}
+
+.UBbck{
+    width: 1250px;
+    height: 180px;
+    left: 0px;
+    position: absolute;
+    background: white;
+    border-radius: 20px;
+}
+
+.menuamborguesaother{
+    width: 40px;
+    height: 40px;
+    background: #F9F9F9 ;
+    position: absolute;
+    top: 655px;
+    transform: translateX(355px);
+    z-index: 7;
+    border-radius: 100px;
+}
+
+.scrollboxUser {
+    width: 1275px;
+    top: 210px;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    position: absolute;
+}
+
+@media (max-width: 810px) {
+    .feedboxUser{
+        width: 100%;
+    }
+    .faposition{
+        width: 100%;
+    }
+    .fabcks{
+        width: 100%;
+        transform: translateX(20px);
+    }
+    .feedboxUser:hover{
+        width: 98%;
+    }
+    .lnpback{
+        width: 98%;
+    }
+    .scrollboxUser{
+        width: 98%;
+        transform: translateX(40px);
+    }
+    .UBbck{
+        width: 98%;
+    }
+    .ubposition{
+        width: 100%;
+        transform: translateX(-100px);
+    }
+    
+}

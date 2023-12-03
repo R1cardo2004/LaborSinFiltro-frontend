@@ -1,0 +1,137 @@
+@import "./iniciar_session_components.css";
+@import "./email_components.css";
+@import "./contra_components.css";
+@import "./continuar_components.css";
+@import "./register_components.css";
+
+.backgroundmain{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%; 
+  min-height: 100vh;
+  padding: var(--background-padding);
+  background: white; 
+  justify-Content: center; 
+  align-Items: center;
+  display: flex;
+  position: fixed;
+}
+
+@media (max-width: 768px) {
+  .backgroundmain {
+    padding: 50px 10px 100px 10px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .backgroundmain {
+    padding: 30px 10px 60px 10px; 
+  }
+}
+
+.fullpositionreal{
+  top: 50%;
+  left: 50%;
+  width: 80%; 
+  height: 499px; 
+  position: absolute;
+  background: #F3F3F3;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .fullpositionreal {
+    width: 90%;
+    max-width: 375px;
+    max-height: 490px;
+    min-height: 480px;
+    bottom: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fullpositionreal {
+    top: 20%;
+    width: 100%;
+    max-width: 375px;
+    max-height: 490px;
+    min-height: 480px;
+    bottom: 100px;
+  }
+}
+
+.fullposition,
+.fullbck {
+  width: 100%;
+  max-width: 499px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fullbck {
+  background: #F3F3F3;
+  border-radius: 20px;
+}
+
+.fullposition {
+  background: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.formposition {
+  width: 100%;
+  max-width: 293px;
+  top: 143px;
+  height: auto;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  display: inline-flex;
+}
+
+@media (max-width: 768px) {
+  .formposition {
+    max-width: 768px;
+    transform: translate(10%, -30%)
+  }
+}
+
+@media (max-width: 480px) {
+  .formposition {
+    max-width: 480px;
+    transform: translate(10%, -30%)
+  }
+}
+
+.nomembertxt,
+.nomembertxtlink {
+  width: 100%;
+  max-width: 169px;
+  font-size: 13px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  color: black;
+  word-wrap: break-word;
+}
+
+.nomembertxtlink {
+  color: blue;
+}
+
+
+

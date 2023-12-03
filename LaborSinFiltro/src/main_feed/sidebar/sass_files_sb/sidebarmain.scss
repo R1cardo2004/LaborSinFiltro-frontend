@@ -1,0 +1,41 @@
+@import './sidebarsettings.css';
+@import './sidebarbuscar.css';
+@import './sidebargrupos.css';
+@import './sidebarhome.css';
+@import './sidebarnotificaciones.css';
+@import './sidebarpfp.css';
+@import './sidebarcreargrupo.css';
+
+.sidebarposition{
+    top: 8vh;
+    width: 156px;
+    height: 100%; 
+    left: 15px;
+    position: absolute; 
+    z-Index: 6;
+    &:hover .sidebarbckcolour{
+    background: #F9F9F9;
+    border-radius: 25px;
+    }
+}
+
+.sidebarbackposition{
+    width: 156px; 
+    height: 860px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    flex-Direction: column; 
+    justify-Content: center; 
+    align-Items: center; 
+    display: inline-flex;
+}
+
+.sidebarbckcolour{
+    width: 156px; 
+    height: 860px; 
+    background: white; 
+    border-Radius: 25px
+    transition background-color 0.5s ease-in-out;
+ 
+}

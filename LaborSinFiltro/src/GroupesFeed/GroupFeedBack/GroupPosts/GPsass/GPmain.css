@@ -1,0 +1,66 @@
+.GPpos {
+  padding-top: 10px;
+  left: 10px;
+  width: 387px;
+  height: 108px;
+  position: relative;
+}
+
+.gpback {
+  width: 387px;
+  height: 108px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: none;
+  border-Radius: 20px;
+}
+
+.gpphoto {
+  width: 88px;
+  height: 86px;
+  left: 8px;
+  top: 10px;
+  position: absolute;
+  background: #D1F1FF;
+  border-Radius: 20px;
+}
+
+.gname {
+  width: 142px;
+  height: 16.39px;
+  left: 101px;
+  top: 10px;
+  position: absolute;
+  color: black;
+  font-Size: 16px;
+  font-Family: Reem Kufi Fun;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}
+
+.gmembers {
+  width: 148px;
+  height: 17.13px;
+  left: 101px;
+  top: 31px;
+  position: absolute;
+  color: black;
+  font-Size: 16px;
+  font-Family: Reem Kufi Fun;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}
+
+.gemebercant {
+  width: 37px;
+  height: 11.17px;
+  left: 101px;
+  top: 54px;
+  position: absolute;
+  color: black;
+  font-Size: 14px;
+  font-Family: Reem Kufi Fun;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}/*# sourceMappingURL=GPmain.css.map */

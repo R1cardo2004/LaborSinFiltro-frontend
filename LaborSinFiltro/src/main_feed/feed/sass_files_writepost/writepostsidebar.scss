@@ -1,0 +1,57 @@
+
+
+.sidebarpossition{
+    width: 48.89px; 
+    height: 222.51px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+}
+
+.sidebarbck{
+    width: 48.89px; 
+    height: 222.51px;
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    border-bottom-left-radius: 20px;
+}
+
+.commenticonposition{
+    width: 18.96px; 
+    height: 23.06px; 
+    left: 15px; 
+    top: 88px; 
+    position: absolute;
+    z-index: 3;
+}
+
+.commenticon{
+    width: 18.96px; 
+    height: 23.06px; 
+    left: 0; 
+    top: 0; 
+    position: absolute;
+    z-index: 3;
+}
+
+.likeiconposition{
+    width: 25.94px; 
+    height: 28.31px; 
+    left: 11px; 
+    top: 50px; 
+    position: absolute;
+    z-index: 3;
+}
+
+.likeicon{
+    width: 25.94px; 
+    height: 28.31px; 
+    left: 0; 
+    top: 0; 
+    position: absolute;
+    z-index: 3;
+}

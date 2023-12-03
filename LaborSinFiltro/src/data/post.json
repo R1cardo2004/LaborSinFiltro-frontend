@@ -1,0 +1,29 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "titilo": "mi primer post",
+      "texto": "este es mi promer post"
+    },
+    {
+      "id": 2,
+      "titilo": "mi segundo post",
+      "texto": "este es mi segundo post"
+    },
+    {
+      "id": 3,
+      "tittle": "mi tercer post",
+      "txt": "este es la tercera prueba de los post"
+    },
+    {
+      "id": 4,
+      "tittle": "prubra de delete",
+      "txt": "prueba de delete"
+    },
+    {
+      "id": 5,
+      "tittle": "prueba de delete 2",
+      "txt": "avr si ahora si borra"
+    }
+  ]
+}

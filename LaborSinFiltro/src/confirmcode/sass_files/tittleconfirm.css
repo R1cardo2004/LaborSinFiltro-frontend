@@ -1,0 +1,29 @@
+.tittleposition {
+  width: 329px;
+  height: 32px;
+  top: 129px;
+  position: absolute;
+}
+
+.tittlebck {
+  width: 329px;
+  height: 32px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: #D1F1FF;
+  border-radius: 20px;
+}
+
+.tittletxt {
+  width: 283px;
+  height: 32px;
+  left: 19px;
+  top: 0;
+  position: absolute;
+  color: black;
+  font-Size: 18px;
+  font-Family: Reem Kufi Fun;
+  font-weight: 400;
+  word-Wrap: break-word;
+}/*# sourceMappingURL=tittleconfirm.css.map */

@@ -1,0 +1,28 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "ricardoestrada2004@icloud.com",
+      "contrasenia": "metro2033",
+      "confirmcontra": "metro2033"
+    },
+    {
+      "id": 2,
+      "email": "00109422@uca.edu.sv",
+      "contrasenia": "marimba2020",
+      "confirmcontra": "marimba2020"
+    },
+    {
+      "id": 3,
+      "email": "ricardoestrada2004@icloud.com",
+      "contrasenia": "metro2033",
+      "confirmcontra": "metro2033"
+    },
+    {
+      "id": 4,
+      "email": "dohernandez@uca.edu.sv",
+      "contrasenia": "12345678Aa!",
+      "confirmcontra": "12345678Aa!"
+    }
+  ]
+}

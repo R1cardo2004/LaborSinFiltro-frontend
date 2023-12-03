@@ -1,0 +1,196 @@
+.feedbox {
+  width: 1275px;
+  height: 85%;
+  margin: 0;
+  transform: translateX(-50px);
+}
+
+.feedbox:hover .fabck,
+.feedbox:hover .TNTbck {
+  background: #F9F9F9;
+}
+
+.faposition {
+  left: 15px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.fabck {
+  width: 1250px;
+  height: 945px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+}
+
+.scrollbox {
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  overflow-x: none;
+}
+
+.trendsNtittleposition {
+  width: 894px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+.TNTbck {
+  width: 894px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.trendbox {
+  width: 852px;
+  height: 26px;
+  left: 206.77px;
+  top: 12.24px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.trendposition {
+  width: 112px;
+  height: 24px;
+  left: 0;
+  top: 1px;
+  position: relative;
+  margin-left: 15px;
+}
+
+.fatittle {
+  width: 113.13px;
+  height: 20.22px;
+  left: 20.02px;
+  top: 4.44px;
+  position: absolute;
+  color: black;
+  font-Size: 17px;
+  font-Family: Reem Kufi Fun;
+  font-Weight: 700;
+  word-Wrap: break-word;
+}
+
+.faicon {
+  width: 17.88px;
+  height: 19.5px;
+}
+
+.trendtxt {
+  width: 86px;
+  height: 18px;
+  left: 26px;
+  top: 2px;
+  position: absolute;
+  color: black;
+  font-Size: 17px;
+  font-Family: Ropa Sans;
+  font-Weight: 400;
+  word-Wrap: break-word;
+}
+.trendtxt:hover {
+  color: #83D0F1;
+}
+
+.faiconposition {
+  width: 22px;
+  height: 24px;
+  padding-Left: 2.06px;
+  padding-Right: 2.06px;
+  padding-Top: 2.25px;
+  padding-Bottom: 2.25px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: white;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+  flex-Direction: column;
+  justify-Content: center;
+  align-Items: center;
+  display: inline-flex;
+}
+
+.menuamborguesa {
+  width: 40px;
+  height: 40px;
+  background: #F9F9F9;
+  position: absolute;
+  left: 325px;
+  transform: translateY(750px);
+  z-index: 6;
+  border-radius: 100px;
+}
+
+@media (max-width: 1200px) {
+  .feedbox {
+    height: 100vh;
+    transform: none;
+  }
+  .fabck,
+  .TNTbck {
+    width: 100%;
+    max-width: none;
+  }
+}
+@media (max-width: 768px) {
+  .trendbox {
+    max-width: 100%;
+    min-width: 100vh;
+    left: 0;
+    transform: none;
+  }
+  .trendposition {
+    margin-left: 3px;
+  }
+  .fatittle {
+    margin-left: 3px;
+    margin-right: 3px;
+    bottom: 30px;
+  }
+  .trendsNtittleposition {
+    overflow-x: scroll;
+    scrollbar-width: none;
+    width: 400px;
+  }
+}
+@media (max-width: 810px) {
+  .trendbox {
+    max-width: 100%;
+    min-width: 100vh;
+    left: 0;
+    transform: none;
+  }
+  .trendposition {
+    margin-left: 3px;
+  }
+  .fatittle {
+    margin-left: 3px;
+    margin-right: 3px;
+    bottom: 30px;
+  }
+  .trendsNtittleposition {
+    overflow-x: scroll;
+    scrollbar-width: none;
+    width: 400px;
+  }
+  .scrollbox {
+    width: 100%;
+    overflow-x: none;
+  }
+}/*# sourceMappingURL=FAmain.css.map */

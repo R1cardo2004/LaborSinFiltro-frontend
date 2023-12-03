@@ -1,0 +1,32 @@
+.codigoposition {
+  width: 329px;
+  height: 43px;
+  top: 284px;
+  position: absolute;
+}
+
+.codigobck {
+  width: 329px;
+  height: 43px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: white;
+  border-radius: 20px;
+}
+
+.codigotxt {
+  width: 159.72px;
+  height: 33.95px;
+  left: 14.35px;
+  top: 3.39px;
+  position: absolute;
+  color: black;
+  font-Size: 20px;
+  font-Family: Reem Kufi Fun;
+  font-Weight: 400;
+  word-Wrap: break-word;
+  border: none;
+  background: none;
+  outline: none;
+}/*# sourceMappingURL=codigoverificacion.css.map */

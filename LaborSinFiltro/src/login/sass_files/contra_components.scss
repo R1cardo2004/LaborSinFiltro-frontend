@@ -1,0 +1,38 @@
+
+
+.contra{
+    width: 293px; 
+    height: 42px; 
+    position: relative;
+    margin-top: 10px;
+}
+  
+.contrabck{
+    width: 293px; 
+    height: 42px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: white; 
+    border-Radius: 20px;
+}
+  
+.contrainput{
+    width: 292px; 
+    height: 33px; 
+    left: 8px; 
+    top: 5px; 
+    position: absolute; 
+    color: black; 
+    font-Size: 20px; 
+    font-Family: Reem Kufi Fun; 
+    font-Weight: 400; 
+    word-Wrap: break-word;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.contrainput:active + .contratxt{
+    display: none;
+}
