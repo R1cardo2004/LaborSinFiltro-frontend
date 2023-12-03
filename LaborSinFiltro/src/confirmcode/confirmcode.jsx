@@ -33,7 +33,7 @@ function Confirmcode() {
         e.preventDefault()
         console.log(url + code);
         axios.post(url + code).then(() => {
-            window.location.href = `/login`
+            window.location.href = `/`
         })
     }
 

@@ -22,7 +22,7 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route>
-                        <Route path='/login' element={<Login/>} />
+                        <Route path='/' element={<Login/>} />
                         <Route path='/feed' element={<Feed/>} />
                         <Route path='/register' element={<RegisterPage/>} />
                         <Route path='/confirm' element={<Confirmcode/>} />
