@@ -75,6 +75,7 @@ function CreatGroup() {
                 axios.post(uri,GroupData, {headers: headers}).then((res) => {
                     console.log(res);
                  })
+                 navigate('/groupfeed',{ state: { token: token} })
             }else{
                 const GroupData = {
                     NombreGrupo: nombre,
@@ -86,6 +87,7 @@ function CreatGroup() {
                 axios.post(uri,GroupData, {headers: headers}).then((res) => {
                     console.log(res);
                  })
+                 navigate('/groupfeed',{ state: { token: token} })
             }
             
            
