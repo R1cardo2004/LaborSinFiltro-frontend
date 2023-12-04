@@ -40,13 +40,13 @@ function Registerpage() {
         <form onSubmit={submithandler} >
         <div className='register'>
             <div className='registerbck'></div>
-            <div className='registertxt'>registrarse</div>
+            <div className='registertxt'>Registrarse</div>
         </div>
         <div className='continuarpositionreal'>
             <div className='continuar'>
                 <div className='continuabck'>
                 <a href='./confirm'>
-                <button className='continuartxtreal'>continuar</button>
+                <button className='continuartxtreal'>Continuar</button>
                 </a>
                 </div>
             </div>
@@ -56,7 +56,7 @@ function Registerpage() {
             <input 
             className='emailtxt' 
             type='text' 
-            placeholder='email' 
+            placeholder='Email' 
             id='email' 
             required
             value={email}
@@ -68,7 +68,7 @@ function Registerpage() {
             <input 
             className='Usertxt' 
             type='text' 
-            placeholder='username' 
+            placeholder='Usuario' 
             id='username' 
             required
             value={username}
@@ -80,7 +80,7 @@ function Registerpage() {
             <input 
             className='contratxt' 
             type='password' 
-            placeholder='contrasenia' 
+            placeholder='contraseña' 
             id='contrasenia'
             required
             value={password}
@@ -92,7 +92,7 @@ function Registerpage() {
             <input 
             className='confirmtxt' 
             type='password' 
-            placeholder='confirmar contrasenia' 
+            placeholder='confirmar contraseña' 
             id='confirm'
             required 
             value={confrimcontra}

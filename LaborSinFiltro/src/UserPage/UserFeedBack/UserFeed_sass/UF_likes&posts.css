@@ -2,6 +2,7 @@
   width: 1275px;
   height: 60px;
   position: relative;
+  z-index: 4;
 }
 
 .lnpback {
@@ -18,7 +19,7 @@
 .likesPos {
   width: 125px;
   height: 34.61px;
-  left: 156px;
+  left: 166px;
   top: 9.44px;
   position: absolute;
   background: none;
@@ -64,7 +65,7 @@
 }
 
 .postpos {
-  width: 93px;
+  width: 115px;
   height: 34.61px;
   left: 49px;
   top: 10.49px;
@@ -78,7 +79,7 @@
 }
 
 .postbttn {
-  width: 93px;
+  width: 115px;
   height: 34.61px;
   left: 0px;
   top: 0px;
@@ -88,7 +89,7 @@
 }
 
 .postbttncolored {
-  width: 93px;
+  width: 115px;
   height: 34.61px;
   left: 0px;
   top: 0px;
@@ -99,7 +100,7 @@
 }
 
 .postTxt {
-  width: 69.91px;
+  width: 100px;
   height: 20.98px;
   left: 11.87px;
   top: 5.24px;

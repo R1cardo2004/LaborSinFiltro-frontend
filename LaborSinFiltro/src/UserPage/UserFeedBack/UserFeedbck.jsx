@@ -91,12 +91,12 @@ function UserBck() {
             <div className='lnpPosition'>
                 <div className='lnpback' />
                 <button className='likesPos' onClick={likebttnclick}>
-                    <div className={likebckclass}/>
+                    <div className={likebckclass} onClick={likebttnclick}/>
                     <div className='likesTxt' onClick={likebttnclick}>Likes</div>
                 </button>
                 <button className='postpos' onClick={postbttnclick}>
-                    <div className={postbckclass} />
-                    <div className='postTxt' onClick={postbttnclick} >posts</div>
+                    <div className={postbckclass} onClick={postbttnclick}/>
+                    <div className='postTxt' onClick={postbttnclick} >Publicaciones</div>
                 </button>
             </div>
             </div>

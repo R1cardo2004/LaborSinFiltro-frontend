@@ -33,7 +33,7 @@ function App() {
         <div className='formposition'>
         <div className='headerForm'>
                 <div className='Fbck'></div>
-                <div className='Ftxt'>iniciar session</div>
+                <div className='Ftxt'>Iniciar session</div>
             </div>
             <form onSubmit={submithandler}> 
             <div className='email'>
@@ -55,7 +55,7 @@ function App() {
                 type='password' 
                 id='contrasenia' 
                 required 
-                placeholder='contrasenia' 
+                placeholder='contraseña' 
                 value={password} 
                 onChange={(e) => setpassword(e.target.value)}
                 />
@@ -63,17 +63,17 @@ function App() {
             <div className='continuarpositionlogin'>
                 <div className='continuar'>
                     <div className='continuarbck'>
-                    <button className='continuarbttn' >continuar</button>
+                    <button className='continuarbttn' >Continuar</button>
                     </div>
                 </div>
             </div>
             </form>
-            <div className='nomembertxt'>no eres miembro? registrate!</div>
+            <div className='nomembertxt'>No eres miembro? Registrate!</div>
             <div className='registerposition'>
                 <div className='registerreal'>
                     <div className='registerbcklogin'>
                     <a href='/register'>
-                    <button className='registerbttn'>registrarse</button>
+                    <button className='registerbttn'>Registrarse</button>
                     </a>
                     </div>
                 </div>

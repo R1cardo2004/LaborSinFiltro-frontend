@@ -70,7 +70,7 @@ function Sidebar() {
         <div className='homeiconposition'>
             <img className='homeicon' src={Homeicon} />
         </div>
-        <div className='hometxt'>Home<br/></div>
+        <div className='hometxt'>Inicio<br/></div>
     </div>
     <div className='notificacionesposition'>
         <div className='notibck' />
